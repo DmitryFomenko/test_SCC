@@ -1,0 +1,289 @@
+@font-face { 
+  font-family: 'Geomanist'; 
+  src: url('./fonts/Geomanist-Book.otf');
+  font-weight: normal; 
+  font-style: normal; 
+}
+
+body {
+  font-family: 'Geomanist'; 
+  padding: 0;
+  margin: 0;
+  background: #262536;
+  background-image: url(./images/GradientMap.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  box-sizing: border-box;
+}
+
+.header {
+  background: #262536;
+  height: 72px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__nav__list {
+  width: 350px;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 40px;
+}
+
+.header__nav__list>li {
+  position: relative;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 15px;
+  height: 72px;
+}
+
+.header__nav__list>li:hover::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(to left, #b34c9c, #ca725d);
+}
+
+.header__nav__list>li:hover {
+  background: linear-gradient(to top, #2b2a3b, #252434);
+}
+
+.header__nav__list>li>a {
+  text-decoration: none;
+  color: white;
+}
+
+.header__status {
+  width: 284px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.header__play {
+  font-family: 'Geomanist'; 
+  cursor: pointer;
+  position: relative;
+  background: linear-gradient(to right, #252535, #36364c);
+  height: 43px;
+  width: 107px;
+  border: 2px solid #8d8aba;
+  border-radius: 50px;
+  color: white;
+  margin-right: 10vw;
+  margin-top: 4px;
+}
+
+.header__play:focus {
+  outline: none;
+}
+
+.header__play::after {
+  content: "";
+  position: absolute;
+  border: 2px solid #232333;
+  height: 35px;
+  width: 99px;
+  border-radius: 50px;
+  top: 0;
+  right: 0;
+}
+
+.header__play:hover {
+  border: 3px solid #8d8aba;
+}
+
+.header__play:hover::after {
+  border: none;
+}
+
+.cup {
+  position: relative;
+  width: 36px;
+  height: 33px;
+}
+
+.cup::before {
+  position: absolute;
+  content: "";
+  background: #2d283d;
+  border-radius: 50px;
+  width: 17px;
+  height: 17px;
+  top: -4px;
+  right: -4px;
+} 
+
+.cup::after {
+  position: absolute;
+  content: "";
+  background: linear-gradient(45deg, #ba47c0, #7e35c1);;
+  border-radius: 50px;
+  width: 9px;
+  height: 9px;
+  top: 0;
+  right: 0;
+} 
+
+.notification {
+  position: relative;
+  width: 24px;
+  height: 22px;
+}
+
+.notification::before {
+  position: absolute;
+  content: "";
+  background: #2d283d;
+  border-radius: 50px;
+  width: 17px;
+  height: 17px;
+  top: -8px;
+  right: -3px;
+} 
+
+.notification::after {
+  position: absolute;
+  content: "";
+  background: linear-gradient(45deg, #4fbcb0, #40d87d);;
+  border-radius: 50px;
+  width: 9px;
+  height: 9px;
+  top: -4px;
+  right: 1px;
+} 
+
+.gem-out-block {
+  position: relative;
+  width: 86px;
+  height: 39px;
+  background: linear-gradient(to right, #6e31c4, #d54ec5);
+  border-radius: 25px;
+}
+
+.gem {
+  width: 18px;
+  height: 18px;
+}
+
+.gem-out-block::before {
+  position: absolute;
+  content: "";
+  width: 78px;
+  height: 31px;
+  border: 2px solid #232333;
+  background: linear-gradient(to right, #2d273e, #38374e);
+  border-radius: 25px;
+  top: 2px;
+  left: 2px;
+  z-index: 1;
+}
+
+.gem-in-block {
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 86px;
+  height: 39px;
+}
+
+.gem-in-block::before {
+  content: url(./images/gemcop2.svg);
+  position: absolute;
+  z-index: 5;
+  opacity: 0.2;
+  bottom: 0;
+  right: 0;
+}
+
+.gem-in-block::after {
+  content: url(./images/gemcop3.svg);
+  position: absolute;
+  z-index: 5;
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+}
+
+.gem,
+.gem-available {
+  z-index: 5;
+}
+
+.avatar-out-block {
+  position: relative;
+  width: 51px;
+  height: 51px;
+  border-radius: 50px;
+  background: linear-gradient(to right, #706e9b, #9390bf);
+  margin-right: 20px;
+}
+
+.avatar-out-block::before {
+  box-sizing: border-box;
+  position: absolute;
+  content: "";
+  width: 17px;
+  height: 17px;
+  border: 3px solid #242433;
+  border-radius: 50px;
+  background: linear-gradient(to right, #d452b6, #ee8169);
+  bottom: -2px;
+  right: -1px;
+  z-index: 1;
+}
+
+.avatar-out-block::after {
+  box-sizing: border-box;
+  position: absolute;
+  content: "";
+  width: 7px;
+  height: 7px;
+  border: 1px solid #242433;
+  border-radius: 50px;
+  background: #242433;
+  bottom: 3px;
+  right: 4px;
+  z-index: 2;
+}
+
+.avatar-in-block {
+  overflow: hidden;
+  content: "";
+  top: 2px;
+  left: 2px;
+  position: absolute;
+  width: 43px;
+  height: 43px;
+  border: 2px solid #232333;
+  border-radius: 50px;
+  background: linear-gradient(to right, #282738, #37364c);
+}
+
+.avatar-in-block::after {
+  content: url(./images/Layer17.svg);
+  position: absolute;
+  border-radius: 50px;
+  height: 100%;
+  width: 67px;
+  top: -16px;
+  left: -13px;
+}

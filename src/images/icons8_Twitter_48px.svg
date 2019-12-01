@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 23" width="23" height="23">
+	<defs>
+		<filter id="flt1"> <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.616   0 0 0 0 0.604   0 0 0 0 0.8   0 0 0 1 0" /> </filter>
+		<image width="40" height="40" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAADFklEQVRYCe2WP2gUQRSHN6coRkRzoBZqFOIfPNFCOzsDVqYS0cIoaGEp2FlaiIiIpLOwM02IuRCCdqYQBUGwEOv0mmjwopImGL9Hbu52h5l3M+fm7pCV38fMm/m9N28ne3cmSfGvuIHiBlw3MMjiFCzCWpeRHqr0MARBOoDrO3S7cft86Wk/fbVUFYed3CvxJL1l1JeJ1oNlhh3Qi6rR1C5oyPUActsNQw9OMj2XerDBqJaKB4i6rg0wd/Iv8J7+L8EeKIN8Jd5knIe05ghWoG3Jh9jHR6rOgm/ft/6InMyHj9ion8k4PIGzcBF8dWSdbV1i8nGL1O3wBnwee30Sb6gqGBdgHuw6JmZLlzG6xnP11G2ME+DypNdW8RyEEMnFXMVYgVew5oFlXb5EWR+2UkeJF0D2XLxjL0YlzM/AVcussa3LGF3jbUfqAGsPoQZ2znPWYvQUs13DjrHoshPS8SdSS+DSThavwQv4ApI3yxgjqS95Gi3racmyd6dlhXVDmWEfxMg8uJzjo2U9X6Ks30uSZBrMh5lpbtpEpVWQczSw6NKSr+up/7R7mGztbLOHrSnf+9x0ZGdXsmGu0fm8qpkndY1/OOQCbIRmKOo6017DpstOsOOfpI9AntpNsd9gn+WKselyJdlrPygxAxXIQw8oYp/hi7Hq8iWm1x/rJaJ2B3DXIF1fm2PVpSWbvRVKnIY8NE4RUzdkxK4rpIh4Fikj//1laFujZEqtGEjRFVNMvpUmKHcZYn91T5IT8+qYvkjTZYyh4xLl7sJWCNUpjF8h9Iy0jzRdabNv/osSL+EG9EOMRjC3c/OmF9J1GaM9TpN2BvbCFoiVvGKxH1i7B4lbnismH9/Ivg/HIFRHMY5B6A+V72yzTqmm+prTxkyMjUCZfGbvLXwAeZ/lW2kz8zIcSpLkOAzDCchTmZ4zQf2U0Aeo2zs+ZHoudfz4nA8sHiDnC40u91/+BZajr6FzCfIDmDnN9ReYyzh6K3gd0o78SC1hlK/TXkJ6OkJfQRrENQXyOnX7IeS1qdLLEBQqbqC4AesG/gIcDJALxBOu0wAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="icons8_Twitter_48px" style="opacity: 0.302;filter: url(#flt1)" href="#img1" transform="matrix(0.563,0,0,0.563,-2,-2)"/>
+</svg>

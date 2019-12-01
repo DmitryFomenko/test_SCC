@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33 37" width="33" height="37">
+	<defs>
+		<linearGradient id="grd1" gradientUnits="userSpaceOnUse"  x1="8.5" y1="7.244" x2="23.5" y2="7.244">
+			<stop offset="0" stop-color="#232333"  />
+			<stop offset="1" stop-color="#3c3a53"  />
+		</linearGradient>
+		<linearGradient id="grd2" gradientUnits="userSpaceOnUse"  x1="11" y1="6" x2="21" y2="6">
+			<stop offset="0" stop-color="#d94fc7"  />
+			<stop offset="1" stop-color="#ff905a"  />
+		</linearGradient>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: url(#grd1);stroke: url(#grd2);stroke-width: 2 } 
+	</style>
+	<path id="Ellipse 1161 copy" class="shp0" d="M11,6c0,2.76 2.24,5 5,5c2.76,0 5,-2.24 5,-5c0,-2.76 -2.24,-5 -5,-5c-2.76,0 -5,2.24 -5,5z" />
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 18" width="30" height="18">
+	<defs>
+		<filter id="flt1"> <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.616   0 0 0 0 0.604   0 0 0 0 0.8   0 0 0 1 0" /> </filter>
+		<image width="46" height="28" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAADQElEQVRYCe2XzUtUURjG74yQs4ggUmEmdGFBUYta9TdEmPRBgZDtApM+VrUMQ1yIizbh2kKbEIIQJJiEcJZ94SqiFm1aOegizEhi7PfITB5O51znzoyKcC7P43nv+z7vx7zjHccoClfYQNhA2EDYQNhA2MDubSDVxNYnqXUWnoGnYAc0scjNAnwHX8FPcNfRxgT34Ve4npBf0N+DqsGxs2in3RhcgUkHt/WqMUqdNrjtSNPhJlyG9iCN3i9R8wZs5q815TaRw5yDcYOuEn8CL8BueLBC2Rexn8JfMK5GgXgWNhW9VCvBuMaTxDvhVuhCkIdxtfTA96BpGCkqjMAy9DVcIzYAk2KQBOX66qrnMBrNwJEcGVJeQF+Dqr8fTb24TmK1ju/UO7sPXSJo+FkyfEWr/omo8UsDVuv5zhnatMKaoOFfo/QVq/p/ovE9bJeJFeFyhfOcl6ALOZyqVa3rOwvoNBuHH2lC09BXxPRPoXPhEU5TZ9pjxFzI4zR1Plu6FFov9ND4km3/VUcVbd7W2ff6iLVT+3DYOt/9UOS5ruAvQ1+i7T+K1kYRh62z79+gsXEMx3qN1IxaFPJNpDGXYK1FpNuP3sYKDsXi+AONjQM44nLsWAm9Zo42fnAjwR/OJFBOEn2cNmktzbqRY76AW3TYcHLWgqxD9NHhs10fbAf3rlq4ndCM3lkbfYjP01IN4ngOjY0+HHE5Zmwoirn0jkwTNxN8tu9j9GFM/gNiLuRx+vqYfulSaGPRQvQ5NBNd9m803dAFfUoUCeibpziPrW+jHP/hCJ416Oph+p6haYE1IYNqFpoFXPZE1Pg1SQlXbdM3g6YVJoJe7TgZZiGXfRtNvbhLoqum6XuMRrNwJEeKlBFYhmZR09bbP0A8KQZJUK5Zy7TVcxiNZuBoDL2k64+H2cC29avQiW4rdCHIQzvfvF8k3gObihzV5qDZyLZXiU/Ba/AEzFQoux9bMT3Udp55X0CXhduCNFX37D/1zP4P7VhjcAWa26vHVo1R6rTBHYea3qHre5h0+Lfk6BPsEGfdaMoTXunezanv+qc5j8PDsAPqhZU4v8PPcAG+hN9gQNhA2EDYQNhA2EDYwJ7ewF/xnSaNEhNiRgAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="icons8_Eye_48px" style="opacity: 0.2;filter: url(#flt1)" href="#img1" transform="matrix(0.667,0,0,0.667,-1,-7)"/>
+</svg>
