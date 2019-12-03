@@ -481,7 +481,7 @@ svg:hover {
   margin-right: 20px;
 }
 
-.number-of-comments>p {
+.number-of-comments p {
   margin: 0;
   color: #808080;
 }
@@ -490,7 +490,7 @@ svg:hover {
   margin-left: 10px;
 }
 
-.comments__nav>ol {
+.comments__nav>ul {
   display: flex;
   margin: 0;
 }
@@ -500,11 +500,11 @@ svg:hover {
   padding: 0 10px;
 }
 
-.comments__nav>ol>li:first-child {
+.comments__nav>ul>li:first-child {
   margin-right: 53px;
 }
 
-.comments__nav>ol>li:last-child {
+.comments__nav>ul>li:last-child {
   display: flex;
   margin-right: 20px;
 }
@@ -658,4 +658,11 @@ svg:hover {
     margin-right: 50px;
   }
 
+  .number-of-comments p {
+    display: none;
+  }
+
+  .comments__nav>ul>li:last-child {
+    margin: 0;
+  }
 }
