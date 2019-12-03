@@ -302,7 +302,6 @@ svg {
 
 svg:hover {
   fill: url(#linear-gradient);
-  cursor: pointer;
   opacity: 1;
 }
 
@@ -559,6 +558,16 @@ svg:hover {
 
 .comment-text {
   max-width: 662px;
+}
+
+.comment-text h3 {
+  font-size: 18px;
+  color: rgb(157,154,204);
+}
+
+.comment-text span {
+  font-size: 16px;
+  color: rgb(157,154,204, 0.4);
 }
 
 .comment-text p {
