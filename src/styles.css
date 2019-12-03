@@ -573,13 +573,8 @@ svg:hover {
   overflow: hidden;
   border-radius: 100px;
   margin-right: 18px;
-}
-
-.comment__autor-avatar::before {
-  position: absolute;
-  content: url(./images/Layer1153.svg);
-  top: 0;
-  left: -10px;
+  background-image: url(./images/Layer1153.svg);
+  background-position-x: right;
 }
 
 .more__news {
@@ -615,4 +610,52 @@ svg:hover {
   margin-bottom: 14px;
   font-size: 18px;
   color: white;
+}
+
+@media screen and (max-width: 1154px) {
+  .more__news {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .header__nav__list {
+    display: none;
+  }
+
+  .news__block {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .comment__autor-avatar {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .avatar-out-block {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .header__play {
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .article__footer {
+    margin-left: 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .social {
+    justify-content: space-between;
+    margin-right: 50px;
+  }
+
 }
